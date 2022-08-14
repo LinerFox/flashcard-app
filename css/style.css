@@ -1,13 +1,19 @@
 body{
     font-family: 'Rubik', sans-serif;
+    background-color: #222;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
 }
 .title{
     text-align: center;
+    margin-top: 0;
+    padding-top: 30px;
 
 }
 
 .term{
-    border: 5px solid red;
+    border: 5px solid whitesmoke;
     border-radius: 10px;
     width: 45%;
     text-align: center;
@@ -16,12 +22,13 @@ body{
 }
 
 .definition{
-    border: 5px solid goldenrod;
+    border: 5px solid whitesmoke;
     text-align: center;
     width: 45%;
     margin: auto;
     margin-top: 100px;
     border-radius: 10px;
+    display: none;
 }
 
 .button{
